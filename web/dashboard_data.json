@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "company": "HCバロー",
+    "generated_at": "2026-07-28 18:28",
+    "latest_month": "202607",
+    "period_start": "202504",
+    "period_end": "202607"
+  },
+  "kpi": {
+    "sales": 19893184,
+    "gross_profit": 1725503,
+    "gross_margin": 0.0867384024598576,
+    "sales_yoy": -9460301,
+    "gross_profit_yoy": 48162,
+    "gross_margin_yoy": 0.029595579384505563,
+    "sales_plan": 31000000,
+    "achievement_rate": 0.6417156129032258
+  },
+  "fiscal_comparison": [
+    {
+      "month": "4月",
+      "month_number": 4,
+      "2025年度": {
+        "sales": 30140606,
+        "gross_profit": 1614317,
+        "gross_margin": 0.0535595402428206
+      },
+      "2026年度": {
+        "sales": 26416558,
+        "gross_profit": 1257944,
+        "gross_margin": 0.0476195271162882
+      }
+    },
+    {
+      "month": "5月",
+      "month_number": 5,
+      "2025年度": {
+        "sales": 18279010,
+        "gross_profit": 1339836,
+        "gross_margin": 0.07329915569825718
+      },
+      "2026年度": {
+        "sales": 20404372,
+        "gross_profit": 1451995,
+        "gross_margin": 0.07116097471659505
+      }
+    },
+    {
+      "month": "6月",
+      "month_number": 6,
+      "2025年度": {
+        "sales": 22104158,
+        "gross_profit": 1541219,
+        "gross_margin": 0.06972529783762856
+      },
+      "2026年度": {
+        "sales": 25312973,
+        "gross_profit": 1462630,
+        "gross_margin": 0.05778183384464559
+      }
+    },
+    {
+      "month": "7月",
+      "month_number": 7,
+      "2025年度": {
+        "sales": 29353485,
+        "gross_profit": 1677341,
+        "gross_margin": 0.05714282307535204
+      },
+      "2026年度": {
+        "sales": 19893184,
+        "gross_profit": 1725503,
+        "gross_margin": 0.0867384024598576
+      }
+    }
+  ],
+  "manufacturer_top10": [
+    {
+      "name": "(株)ニッド",
+      "sales": 1822731,
+      "gross_profit": 147298,
+      "gross_margin": 0.08081170507332129,
+      "sales_yoy": -688288
+    },
+    {
+      "name": "フジホーム(株)",
+      "sales": 1441180,
+      "gross_profit": 182897,
+      "gross_margin": 0.12690781165433881,
+      "sales_yoy": 1441180
+    },
+    {
+      "name": "大塚製薬(株)",
+      "sales": 1122448,
+      "gross_profit": 149633,
+      "gross_margin": 0.13330951634285063,
+      "sales_yoy": -7182365
+    },
+    {
+      "name": "(株)竹虎",
+      "sales": 979373,
+      "gross_profit": 120276,
+      "gross_margin": 0.12280918506023752,
+      "sales_yoy": 979373
+    },
+    {
+      "name": "興和(株)(ヘルスケア)",
+      "sales": 885587,
+      "gross_profit": 57133,
+      "gross_margin": 0.06451427132512108,
+      "sales_yoy": 434283
+    },
+    {
+      "name": "興和(株)",
+      "sales": 758750,
+      "gross_profit": 54291,
+      "gross_margin": 0.07155321252059309,
+      "sales_yoy": -459157
+    },
+    {
+      "name": "(株)池田模範堂",
+      "sales": 748148,
+      "gross_profit": 19489,
+      "gross_margin": 0.026049658623694776,
+      "sales_yoy": -96320
+    },
+    {
+      "name": "ロート製薬(株)",
+      "sales": 719422,
+      "gross_profit": 20855,
+      "gross_margin": 0.028988549140838062,
+      "sales_yoy": -256365
+    },
+    {
+      "name": "(株)大塚製薬工場",
+      "sales": 674720,
+      "gross_profit": 43529,
+      "gross_margin": 0.06451416884040788,
+      "sales_yoy": -546688
+    },
+    {
+      "name": "アリナミン製薬(株)",
+      "sales": 661317,
+      "gross_profit": 17108,
+      "gross_margin": 0.02586959052920158,
+      "sales_yoy": -528206
+    }
+  ],
+  "product_top10": [
+    {
+      "name": "ハリーローヤル3000(ビタミンローヤル",
+      "sales": 518150,
+      "gross_profit": 34176,
+      "gross_margin": 0.06595773424683972,
+      "sales_yoy": -38700,
+      "jan": "4987336771896"
+    },
+    {
+      "name": "薬用養命酒",
+      "sales": 485760,
+      "gross_profit": 29069,
+      "gross_margin": 0.059842308959156786,
+      "sales_yoy": -105600,
+      "jan": "4987236000065"
+    },
+    {
+      "name": "オロナミンCドリンク",
+      "sales": 338200,
+      "gross_profit": 5573,
+      "gross_margin": 0.016478415138971022,
+      "sales_yoy": -151300,
+      "jan": "4987035089322"
+    },
+    {
+      "name": "オーエスワン",
+      "sales": 309600,
+      "gross_profit": 20541,
+      "gross_margin": 0.0663468992248062,
+      "sales_yoy": -298800,
+      "jan": "4987035576419"
+    },
+    {
+      "name": "NID国産もち麦ごはん徳用",
+      "sales": 262560,
+      "gross_profit": 20682,
+      "gross_margin": 0.07877056672760512,
+      "sales_yoy": 262560,
+      "jan": "4953575129408"
+    },
+    {
+      "name": "バロー)APBC-JT205ブルー",
+      "sales": 234000,
+      "gross_profit": 54828,
+      "gross_margin": 0.2343076923076923,
+      "sales_yoy": 234000,
+      "jan": "4948910950670"
+    },
+    {
+      "name": "バロー)APBC-JT205レッド",
+      "sales": 234000,
+      "gross_profit": 54828,
+      "gross_margin": 0.2343076923076923,
+      "sales_yoy": 234000,
+      "jan": "4948910950687"
+    },
+    {
+      "name": "液体ムヒS",
+      "sales": 210798,
+      "gross_profit": -6823,
+      "gross_margin": -0.03236747976736022,
+      "sales_yoy": -42042,
+      "jan": "4987426002091"
+    },
+    {
+      "name": "ポカリスエットイオンウォーター",
+      "sales": 207360,
+      "gross_profit": 34919,
+      "gross_margin": 0.1683979552469136,
+      "sales_yoy": -1474224,
+      "jan": "4987035223818"
+    },
+    {
+      "name": "オーエスワンアップル風味",
+      "sales": 199200,
+      "gross_profit": 11861,
+      "gross_margin": 0.05954317269076305,
+      "sales_yoy": -232800,
+      "jan": "4987035652212"
+    }
+  ],
+  "insights": [
+    "7月の売上は前年を下回った。粗利率は前年から3.0%ポイント改善。",
+    "主要メーカーでは、最大増収がフジホーム(株)、最大減収が大塚製薬(株)。",
+    "売上上位商品はハリーローヤル3000(ビタミンローヤル。"
+  ]
+}

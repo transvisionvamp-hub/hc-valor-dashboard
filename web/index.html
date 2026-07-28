@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HCバロー 営業ダッシュボード</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+  <script src="./dashboard.js" defer></script>
+</head>
+<body>
+  <header class="dashboard-header">
+    <div>
+      <p class="eyebrow">名古屋支社第一部｜EXECUTIVE SALES REPORT</p>
+      <h1>HCバロー 営業ダッシュボード</h1>
+      <p class="header-subtitle">月別推移・商品分析</p>
+    </div>
+    <dl class="meta">
+      <div><dt>対象期間</dt><dd id="period">—</dd></div>
+      <div><dt>更新日</dt><dd id="generated-at">—</dd></div>
+    </dl>
+  </header>
+
+  <main class="dashboard">
+    <section class="kpi-grid" aria-label="主要業績指標">
+      <article class="kpi-card sales"><p>売上</p><strong id="kpi-sales">—</strong><span id="kpi-sales-yoy">前年差なし</span></article>
+      <article class="kpi-card gross"><p>粗利</p><strong id="kpi-gross">—</strong><span id="kpi-gross-yoy">前年差なし</span></article>
+      <article class="kpi-card margin"><p>粗利率</p><strong id="kpi-margin">—</strong><span id="kpi-margin-yoy">前年差なし</span></article>
+      <article class="kpi-card achievement"><p>計画達成率</p><strong id="kpi-achievement">—</strong><span id="kpi-achievement-note">計画未登録</span></article>
+    </section>
+
+    <section class="panel trend-panel">
+      <div class="panel-heading">
+        <div><span class="section-number">01</span><h2>月別年度比較</h2></div>
+        <p>売上・粗利率</p>
+      </div>
+      <div class="chart-wrap trend-chart"><canvas id="fiscal-chart" role="img" aria-label="年度別の月別売上と粗利率比較グラフ"></canvas></div>
+    </section>
+
+    <section class="panel table-panel">
+      <div class="panel-heading">
+        <div><span class="section-number">02</span><h2>年度別月次比較</h2></div>
+        <p>売上：百万円｜粗利：千円｜粗利率：%</p>
+      </div>
+      <div class="table-scroll"><table id="comparison-table" aria-label="年度別月次比較表"><caption>年度別 売上・粗利・粗利率比較</caption></table></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <div><span class="section-number">03</span><h2>メーカー別売上 TOP10</h2></div>
+        <p>最新月</p>
+      </div>
+      <div class="chart-wrap rank-chart"><canvas id="manufacturer-chart" role="img" aria-label="メーカー別売上トップ10横棒グラフ"></canvas></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <div><span class="section-number">04</span><h2>商品別売上 TOP10</h2></div>
+        <p>最新月</p>
+      </div>
+      <div class="chart-wrap rank-chart"><canvas id="product-chart" role="img" aria-label="商品別売上トップ10横棒グラフ"></canvas></div>
+    </section>
+
+    <section class="insights" aria-labelledby="insights-title">
+      <h2 id="insights-title">営業ポイント</h2>
+      <ul id="insight-list"></ul>
+      <p class="tax-note">※金額は税込</p>
+    </section>
+    <div id="loading" role="status" aria-live="polite"><span></span>ダッシュボードを読み込んでいます</div>
+    <div id="error-message" role="alert" aria-live="assertive"></div>
+  </main>
+</body>
+</html>
